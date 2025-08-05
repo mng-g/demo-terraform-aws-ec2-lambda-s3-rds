@@ -1,0 +1,9 @@
+vpc_cidr     = "10.1.0.0/16"
+subnet_cidrs = ["10.1.1.0/24", "10.1.2.0/24"]
+azs          = ["us-east-1a", "us-east-1b"]
+# instance_type     = "t2.micro"
+# ami               = "ami-xxxxxxxxxxxxxxx"
+# prefix            = "test"
+# db_name           = "mydatabase"
+# db_username       = "admin"
+# db_password       = "password"
