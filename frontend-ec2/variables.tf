@@ -6,7 +6,6 @@ variable "aws_region" {
 
 variable "prefix" {
   type        = string
-  default     = "terraform-nginx"
   description = "Prefix for the resources"
 }
 

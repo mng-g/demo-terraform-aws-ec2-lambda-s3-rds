@@ -27,9 +27,9 @@ The infrastructure consists of the following components:
 
 2. Initialize Terraform in each module directory:
    ```bash
-   cd modules/network-security && terraform init
+   cd network-security && terraform init
    cd ../s3-rds && terraform init
-   cd ../ai-lambda && terraform init
+   cd ../api-lambda && terraform init
    cd ../frontend-ec2 && terraform init
    cd ../..
    ```

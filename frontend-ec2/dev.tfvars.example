@@ -1,10 +1,2 @@
-vpc_cidr     = "10.0.0.0/16"
-subnet_cidrs = ["10.0.1.0/24", "10.0.2.0/24"]
-azs          = ["us-east-1a", "us-east-1b"]
-
-# instance_type     = "t2.micro"
-# ami               = "ami-xxxxxxxxxxxxxxx"
-# prefix            = "dev"
-# db_name           = "mydatabase"
-# db_username       = "admin"
-# db_password       = "password"
+instance_type     = "t2.micro"
+ami               = "ami-0150ccaf51ab55a51"
