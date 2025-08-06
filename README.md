@@ -62,7 +62,7 @@ Deploy the infrastructure in the following order:
 
 1. **Network & Security**
    ```bash
-   cd modules/network-security
+   cd network-security
    terraform plan
    terraform apply -var-file="dev.tfvars" -var 'prefix=demo-terraform-aws-ec2-lambda-s3-rds'
    ```
@@ -76,7 +76,7 @@ Deploy the infrastructure in the following order:
 
 3. **AI Lambda Functions**
    ```bash
-   cd ../ai-lambda
+   cd ../api-lambda
    terraform plan
    terraform apply -var-file="dev.tfvars" -var 'prefix=demo-terraform-aws-ec2-lambda-s3-rds'
    ```
@@ -101,7 +101,7 @@ Each module contains a `variables.tf` file where you can customize the deploymen
 To destroy all resources, run `terraform destroy` in reverse order:
 
 1. `frontend-ec2`
-2. `ai-lambda`
+2. `api-lambda`
 3. `s3-rds`
 4. `network-security`
 
