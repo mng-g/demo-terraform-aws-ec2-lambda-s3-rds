@@ -31,7 +31,7 @@ The infrastructure consists of the following components:
    cd ../s3-rds && terraform init
    cd ../api-lambda && terraform init
    cd ../frontend-ec2 && terraform init
-   cd ../..
+   cd ..
    ```
 
 3. **Using Workspaces (Future Enhancement)**
