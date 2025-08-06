@@ -111,3 +111,13 @@ To destroy all resources, run `terraform destroy` in reverse order:
 - Use secure methods for handling secrets (AWS Secrets Manager or Parameter Store)
 - Enable encryption at rest and in transit
 - Follow the principle of least privilege
+
+## Future Enhancements
+
+- Implement Terraform workspaces for multi-environment support (dev/test/prod)
+- Implement Terraform remote state for multi-environment support (dev/test/prod)
+- Create a didicated IAM stack
+- Split rds and ec2 security groups
+- Add monitoring and logging
+- Add cost optimization features
+- Add backup and recovery features
